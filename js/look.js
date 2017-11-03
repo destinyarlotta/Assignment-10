@@ -1,5 +1,3 @@
-var image1 = document.getElementById("image1");
-
 
 function change() {
   // change the src attribute with setAttribute()
@@ -29,3 +27,10 @@ document.getElementById("image3").onclick = change3;
 //document.getElementById("image2").onclick = change2;
 
 //document.getElementById("image1").onclick = change3;
+function change4() {
+  // change the src attribute with setAttribute()
+  image4.setAttribute("src", "");
+// image1 = document.getElementById("image2");
+}
+
+document.getElementById("image4").onclick = change4;
